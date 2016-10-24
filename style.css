@@ -1,0 +1,63 @@
+body {
+    width:80vw;
+}
+
+img {
+    max-width: 100%;
+}
+
+.wrapper {
+
+}
+
+.header {
+
+}
+
+.inner-wrapper {
+
+}
+
+.main-nav {
+
+}
+
+.main-image {
+	max-width: 939px;
+	max-height: 329px;
+/*	object-fit: cover;*/
+}
+
+.double-category {
+    display: flex;
+}
+
+.med-cat {
+    
+}
+
+.quad-cat {
+    display: flex;
+}
+
+.quarter-cat-img {
+    width: 25%;
+	max-height: auto;
+	object-fit: contain;
+}
+
+footer {
+
+}
+
+.stay-connected {
+
+}
+
+.card-logos {
+
+}
+
+.copyright {
+	
+}
