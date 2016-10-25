@@ -1,0 +1,18 @@
+footer {
+    display: flex;
+}
+
+footer > div {
+    flex: 1;
+}
+
+.navigation-footer {
+/*    flex-direction: row;*/
+}
+
+.navigation-footer > ul {
+    flex-direction: column;
+    
+}
+
+
