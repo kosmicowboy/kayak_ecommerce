@@ -1,0 +1,135 @@
+.main-prod-img-box {
+    border: 1px solid #E5E5E5;
+    border-radius: 5px;
+    margin: 10px 1;
+    padding: 20;
+    width: 580px;
+    height: 401px;
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+    flex-flow: column wrap;
+    align-content: center;
+}
+
+.main-prod-image {
+    border-radius: 5px;
+    height: 358px;
+    width: 358px;
+}
+
+.thumbnail-img {
+    margin: 10;
+    border-radius: 5px;
+    height: 50px;
+    width: 50px;
+}
+
+.row-across {
+    display: flex;
+}
+
+.main-prod-desc {
+    margin: 10px;
+    align-content: flex-start;
+}
+
+.title {
+    font-size: 20px;
+	font-weight: bold;
+	line-height: 1.5;
+	color: #065683;
+}
+
+.price {
+    font-size: 18px;
+	font-style: italic;
+	line-height: 0.4;
+	color: #5c5c5c;
+}
+
+.product-code {
+    font-style: italic;
+	line-height: 1.3;
+	color: #5c5c5c;
+}
+
+.main-prod-desc ul {
+	font-family: Arial;
+	font-size: 12px;
+	line-height: 1.5;
+	color: #4c4c4c;
+}
+
+.product-description h2 {
+    font-size: 20px;
+	font-weight: bold;
+	line-height: 0.9;
+	color: #065683;
+}
+
+.product-description {
+    width: 940px;
+	height: 292px;
+	border-radius: 5px;
+	background-color: #ffffff;
+	border: solid 1px #e9e9e9;
+	font-family: Arial;
+	font-size: 12px;
+    line-height: 1.3;  
+	color: #505050;
+    padding: 0 15;
+}
+
+.related-products-title {
+    width: 940px;
+    border: solid 1px #e9e9e9;
+    border-radius: 5px;
+    font-family: Arial;
+	font-size: 18px;
+	line-height: 1;
+	color: #4c4c4c;
+    margin: 10 0;
+    padding: 15 10;
+}
+
+.related-products {
+    display: flex;
+/*    flex-direction: column;*/
+/*    justify-content: center;*/
+    justify-content: space-between;
+/*    align-items: stretch;*/
+/*    align-items: stretch;    flex-direction: column;*/
+}
+
+.related-products > div {
+    border: solid 1px #e9e9e9;
+    border-radius: 5px;
+    margin-top: 10;
+    padding: 30 20;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.product-title {
+	font-size: 12px;
+	font-weight: normal;
+	line-height: 1.5;
+	color: #5994b3;
+}
+
+.product-price-title {
+    font-weight: normal;
+	font-style: italic;
+	color: #737373;
+    font-size: 12px;
+}
+.product-price-title .product-price {
+    font-style:normal;
+    font-family: Arial;
+	font-size: 13px;
+	font-weight: bold;
+	line-height: 1.4;
+	text-align: center;
+	color: #ff0000;
+}
