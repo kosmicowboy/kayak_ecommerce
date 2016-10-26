@@ -28,6 +28,12 @@ img {
     top: -5px;
     height: 62px;
     background-color: #446475;
+    display: flex;
+/*    flex-direction: column;*/
+    align-content: stretch;
+}
+.header div {
+    
 }
 
 .wrapper {
@@ -129,17 +135,8 @@ ul li a:visisted {
 	line-height: 1.2;
 	color: rgba(255, 255, 255, 0.9);
 	text-shadow: 5px 8.7px 13px rgba(0, 0, 0, 0.34);
-/*    overflow: hidden;*/
-/*    display: flex;*/
 }
 
-.lleft {
-
-}
-
-.rright {
-   
-}
 .double-category {
     display: flex;
     flex-direction: row;
@@ -152,10 +149,6 @@ ul li a:visisted {
 .quad-cat-row {
     width: 100%;
     display: flex;
-/*    flex-wrap: wrap;*/
-/*    flex-direction: row;*/
-/*    align-items: flex-start;*/
-/*    justify-content: space-between;*/
 }
 
 .quad-img {
