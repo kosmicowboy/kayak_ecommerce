@@ -36,11 +36,31 @@ img {
     background: url(img/background.png) no-repeat;
     display: flex;
     justify-content: center;
+    padding-top: 10;
 }
 
 .content {
     max-width: 960px;
 }
+
+.logo-bar {
+    display: flex;
+    align-items: center;
+}
+
+.logo-bar a {
+   align-items: center;
+}
+
+.logo-bar a img {
+    box-shadow: none;
+}
+
+.logo-bar:first-child {
+    
+}
+
+
 
 .outer-wrapper {
     background-color: white;
@@ -54,30 +74,26 @@ img {
     align-items: center;
 }
 
-nav ul li {
-/*    font-weight: 100;*/
-    font-size: 15px;
-/*    letter-spacing: 2px;*/
-    text-decoration: none;
-/*    padding: 14px 5px;*/
-
-/*    display: inline-block;*/
-/*    width: 100%;*/
-
-    
-}
-
 .flex-nav ul {
     display: flex;
     list-style: none;
 /*        margin-top: 14px;*/
 /*    margin-bottom: 17px;*/
 /*    margin: 0;*/
-    padding: 0;
+    
+    height: 30;
+    align-items: center;
+    padding: 20 40;
 }
 
 .flex-nav li {
-    flex-basis: 100%;
+/*    flex-basis: 100%;*/
+    font-size: 15px;
+    text-decoration: none;
+    flex: 1;
+    text-align: center;
+    white-space:nowrap;
+    
 }
 
 ul li a {
@@ -149,14 +165,6 @@ ul li a:visisted {
 	height: 32px;
 	opacity: 0.9;
     background: rgba(255,255,255,1);
-background: rgba(255,255,255,1);
-background: -moz-linear-gradient(left, rgba(255,255,255,1) 0%, rgba(246,246,246,0.74) 59%, rgba(252,252,252,0.63) 85%, rgba(255,255,255,0.63) 100%);
-background: -webkit-gradient(left top, right top, color-stop(0%, rgba(255,255,255,1)), color-stop(59%, rgba(246,246,246,0.74)), color-stop(85%, rgba(252,252,252,0.63)), color-stop(100%, rgba(255,255,255,0.63)));
-background: -webkit-linear-gradient(left, rgba(255,255,255,1) 0%, rgba(246,246,246,0.74) 59%, rgba(252,252,252,0.63) 85%, rgba(255,255,255,0.63) 100%);
-background: -o-linear-gradient(left, rgba(255,255,255,1) 0%, rgba(246,246,246,0.74) 59%, rgba(252,252,252,0.63) 85%, rgba(255,255,255,0.63) 100%);
-background: -ms-linear-gradient(left, rgba(255,255,255,1) 0%, rgba(246,246,246,0.74) 59%, rgba(252,252,252,0.63) 85%, rgba(255,255,255,0.63) 100%);
-background: linear-gradient(to right, rgba(255,255,255,1) 0%, rgba(246,246,246,0.74) 59%, rgba(252,252,252,0.63) 85%, rgba(255,255,255,0.63) 100%);
-filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#ffffff', GradientType=1 );
 }
 
 .quad-banner-light-text {
