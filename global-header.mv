@@ -1,0 +1,40 @@
+<div class="header">
+    <div class="phone">800.555.5555</div><div class="mini-nav">Sign In | About Us | Contact Us</div>
+</div>
+        
+<div class="wrapper">
+    <div class="content">
+        <div class="logo-bar">
+            <div id="logo "><mvt:item name="cssui_links" param="storefront"></mvt:item></div>
+            <div id="logo-text"><mvt:item name="cssui_links" param="storefront"></mvt:item></div>
+        </div>
+        <div class="outer-wrapper">
+
+
+
+
+
+                -----------------NAVBAR---------------------
+
+
+                    <nav class="flex-nav">
+                        <ul>
+                            <li><a href="#">new arrivals</a></li>
+                            <li>&bull;</li>
+                            <li><a href="#">men</a></li>
+                            <li>&bull;</li>
+                            <li><a href="#">women</a></li>
+                            <li>&bull;</li>
+                            <li><a href="#">accessories</a></li>
+                            <li>&bull;</li>
+                            <li><a href="#">brands</a></li>
+                            <li>&bull;</li>
+                            <li><a href="#">kayaks</a></li>
+                            <li>&bull;</li>
+                            <li><a href="#">101 limited edition</a></li>
+                            <li>&bull;</li>
+                            <li><a href="#">clearance</a></li>
+                        </ul>
+                    </nav>
+
+                    

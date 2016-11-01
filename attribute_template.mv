@@ -1,0 +1,3 @@
+<mvt:foreach iterator="option" array="attribute:options">
+		<img src="&mvte:option:image;" alt="&mvte:option:prompt;" />
+</mvt:foreach>

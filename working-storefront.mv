@@ -1,0 +1,37 @@
+<mvt:item name="html_profile" />
+<head>
+	<mvt:if expr="NOT ISNULL l.settings:page:title">
+		<title>&mvt:page:title;</title>
+	<mvt:else>
+		<title>&mvt:store:name;</title>
+	</mvt:if>
+
+	<base href="&mvt:global:basehref;" />
+	<link rel="canonical" href="&mvte:urls:_self:auto;" />
+	<mvt:item name="head" param="css_list" />
+	<mvt:item name="head" param="head_tag" />
+</head>
+<body class="SFNT">
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+var js, fjs = d.getElementsByTagName(s)[0];
+if (d.getElementById(id)) return;
+js = d.createElement(s); js.id = id;
+js.src = “//connect.facebook.net/en_US/all.js#xfbml=1&appId=1619677784997348";
+fjs.parentNode.insertBefore(js, fjs);
+}(document, ‘script’, ‘facebook-jssdk’));</script>
+
+
+
+
+	<mvt:item name="hdft" param="global_header" />
+	<mvt:item name="navbar" />
+	<mvt:item name="content" />
+	<mvt:item name="hdft" param="global_footer" />
+
+
+
+
+
+</body>
+</html>

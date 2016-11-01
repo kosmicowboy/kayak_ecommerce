@@ -1,0 +1,14 @@
+<div class="related-products-title">
+   Related Products
+    <div class="related-products">
+        <mvt:foreach iterator="product" array="related_products:products">
+            <div>
+                <img class="related-prod-img" src="&mvt:product:customfield_values:productimagecustomfields:main;" alt="&mvte:product:name;" >
+                <br>
+                <div class="product-title"><a data-mm-linktype="product-list-link" href="&mvte:product:link;">&mvt:product:name;</a></div>
+                <div class="product-price-title">Price: <span class="product-price">&mvt:product:formatted_base_price;</span> </div>
+                <div class="more-info-button"><img src="img/more-info-button.png" width="130px" ></div>
+            </div>
+        </mvt:foreach>
+    </div>
+</div>

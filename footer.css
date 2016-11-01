@@ -1,7 +1,11 @@
+footer {
+    text-align: left;
+}
+
 .footer-content {
-    margin-top: 30;
-    margin-bottom: 30;
-    padding-bottom: 15;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    padding-bottom: 15px;
     border-top: 1px solid #E5E5E5;
     border-bottom: 1px solid #E5E5E5;
     display: flex;

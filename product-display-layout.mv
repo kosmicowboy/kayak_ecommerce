@@ -1,0 +1,38 @@
+<div class="inner-wrapper">
+    <div class="product-display">
+        <img src="img/banner.png">
+        <div class="row-across">
+            <div class="main-prod-img-box">
+               <img class="main-prod-image" src=" &mvt:product:customfield_values:productimagecustomfields:main;" alt="&mvte:product:name;" >
+                <mvt:item name="product_display_imagemachine" param="body:product:id" />
+                <img class="thumbnail-img" src="img/small_boat.png">
+                <img class="thumbnail-img" src="img/small_boat.png">
+                <img class="thumbnail-img" src="img/small_boat.png">
+                <img class="thumbnail-img" src="img/small_boat.png">
+            </div>
+            <div class="main-prod-desc">
+                <div class="title">&mvt:product:name;</div>
+                <div class="price">Price: &mvt:product:price;</div>
+                <div class="product-code">Product code: &mvt:product:code;</div>
+                <ul class="features">
+                    Features
+                    <li>&mvt:attributemachine:product:customfield_values:customfields:feat1;</li>
+                    <li>&mvt:attributemachine:product:customfield_values:customfields:feat2;</li>
+                    <li>&mvt:attributemachine:product:customfield_values:customfields:feat3;</li>
+                    <li>&mvt:attributemachine:product:customfield_values:customfields:feat4;</li>
+                    <li>&mvt:attributemachine:product:customfield_values:customfields:feat5;</li>                                                                        
+                </ul>
+                <div>Pick a color:</div>
+                <div>Colors</div>
+                <mvt:item name="product_attributes" param="product:id" />   
+                <div>Quantity: 1</div>
+                <a href="" ><img src="img/add-to-basket.png" width="210px" height="50px" border="0"></a>
+            </div>
+        </div>
+        <div class="product-description">
+            <h2>&mvt:product:name;</h2>
+            &mvt:product:descrip;
+        </div>
+        <mvt:item name="related_products" />
+    </div>
+</div>    

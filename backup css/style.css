@@ -1,6 +1,7 @@
 @font-face {
     font-family: 'Aller';
-    src: url('fonts/aller/Aller_Std_Lt.ttf');
+    src: url('/fonts/Aller_Std_Lt.ttf');
+/*    format('ttf');*/
 }
 
 html {
@@ -9,12 +10,6 @@ html {
 
 body {
     font-family: Aller;
-    padding: 0;
-}
-
-body {
-    background: url("../img/background.png") no-repeat;
-    background-size: 100% auto;
 }
 
 a {
@@ -27,17 +22,15 @@ img {
 }
 
 .header {
+/*    position: fixed;*/
     width: calc(100vw + 5px);
     left: -5px;
     top: -5px;
     height: 62px;
     background-color: #446475;
     display: flex;
-    flex-direction: row;
-    color: white;
-    align-items: flex-end;
-    justify-content: space-between;
-    padding: 5px 20%;
+/*    flex-direction: column;*/
+    align-content: stretch;
 }
 .header div {
     
@@ -45,9 +38,10 @@ img {
 
 .wrapper {
     width: 100vw;
+    background: url(/img/background.png) no-repeat;
     display: flex;
     justify-content: center;
-    padding-top: 10px;
+    padding-top: 10;
 }
 
 .content {
@@ -57,7 +51,6 @@ img {
 .logo-bar {
     display: flex;
     align-items: center;
-    margin-bottom: -10px;
 }
 
 .logo-bar a {
@@ -86,24 +79,21 @@ img {
     align-items: center;
 }
 
-.SFNT .inner-wrapper {
-    margin: 0 10px;
-    padding-bottom: 30px;
-    width: 939px;
-}
-
-.SFNT .inner-wrapper img {
-    box-shadow: 0 0 0 0 rgba(0, 0, 0, 0.3);
-    border-radius: 5px;
-
-}
+/*.inner-wrapper img {*/
+/*    box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.3);*/
+/*    border-radius: 5px;*/
+/*}*/
 
 .flex-nav ul {
     display: flex;
     list-style: none;
-    height: 30px;
+/*        margin-top: 14px;*/
+/*    margin-bottom: 17px;*/
+/*    margin: 0;*/
+    
+    height: 30;
     align-items: center;
-    padding: 20px 40px;
+    padding: 20 40;
 }
 
 .flex-nav li {
@@ -132,7 +122,7 @@ ul li a:visisted {
 /*    display: block;*/
 /*    position: relative;*/
     position: absolute;
-    padding: 138px 0px 0px 52px;
+    padding: 138px 0 0 52px;
     
 /*    left: 52px;*/
     z-index: 2;
@@ -157,7 +147,7 @@ ul li a:visisted {
 }
 
 .quad-cat-row {
-    width: 101%;
+    width: 100%;
     display: flex;
 }
 
