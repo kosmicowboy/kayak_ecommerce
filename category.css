@@ -1,7 +1,7 @@
 /* make sidebar nav vertical */ 
 @media (min-width: 768px) {
   .sidebar-nav .navbar .navbar-collapse {
-    padding: 0;
+    padding: 0px;
     max-height: none;
   }
   .sidebar-nav .navbar ul {
@@ -26,13 +26,11 @@
 }
 
 .category-content {
-/*    display: flex;*/
-    margin: 10;
-    padding: 9
+    padding: 10px 0;
 }
 
 .category-content a {
-    color: #065683 !important;
+    color: #065683;
 }
 
 .right-side-content {
@@ -58,8 +56,9 @@
 	font-size: 10px;
 	line-height: 2;
 	color: #959494;
-    padding: 8 0;
-    margin: 0;
+  padding: 8px 0px;
+  margin: 0px;
+  text-align: left;
 }
 
 .title-bar-area {
@@ -70,7 +69,7 @@
 }
 
 .pagination {
-    margin: 5 0;
+    margin: 1px;
 }
 
 .category-title {
@@ -89,8 +88,8 @@
 .category-content-single {
     border: 1px solid #E5E5E5;
     border-radius: 5px;
-    padding: 15;
-    margin-bottom: 10;
+    padding: 15px;
+    margin-bottom: 10px;
     
 /*    margin: 6*/
 }

@@ -1,12 +1,19 @@
 <div class="header">
-    <div class="phone">800.555.5555</div><div class="mini-nav">Sign In | About Us | Contact Us</div>
+    <div class="phone">800.555.5555</div><div class="mini-nav"><mvt:item name="cssui_links" param="customer_login">Sign In</mvt:item> | About Us | Contact Us</div>
 </div>
         
 <div class="wrapper">
     <div class="content">
         <div class="logo-bar">
-            <div id="logo "><mvt:item name="cssui_links" param="storefront"></mvt:item></div>
-            <div id="logo-text"><mvt:item name="cssui_links" param="storefront"></mvt:item></div>
+            <div>
+                <mvt:item name="cssui_links" param="storefront"><img border="0" alt="omnis" src="img/logo.png"></mvt:item>
+                <mvt:item name="cssui_links" param="storefront"><img border="0" alt="omnis" src="img/logo_omnis.png"></mvt:item>
+            </div>
+            <div class="search-bar">Search here</div>
+            <div class="items-in-cart">
+                <div>&mvt:global_minibasket:basket_count; items in cart</div>
+                <div>View Cart</div>
+            </div>
         </div>
         <div class="outer-wrapper">
 

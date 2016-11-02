@@ -1,0 +1,22 @@
+
+<ul class="category-tree">
+	<mvt:foreach array="cattree_categories" iterator="cattree_category">
+
+		<mvt:if expr="NOT ISNULL l.settings:category:id AND l.settings:category:id EQ l.settings:cattree_category:id">
+			<div class="level-&mvte:cattree_category:level; active">
+		<mvt:elseif expr="NOT ISNULL g.Category_Code AND ISNULL l.settings:category:id AND l.settings:cattree_category:code EQ g.Category_Code">
+			<div class="level-&mvte:cattree_category:level; active">
+		<mvt:else>
+			<div class="level-&mvte:cattree_category:level;">
+		</mvt:if>
+
+			<a href="&mvte:cattree_category:link;">
+				<mvt:if expr="l.settings:cattree_category:image">
+					<img src="&mvte:cattree_category:image;" alt="&mvte:cattree_category:name;" />
+				<mvt:else>
+					&mvte:cattree_category:name;
+				</mvt:if>
+			</a>
+		</div>
+	</mvt:foreach>
+</ul>

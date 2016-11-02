@@ -12,3 +12,7 @@
         </mvt:foreach>
     </div>
 </div>
+
+<a href="&mvte:product:link;">
+    <img src="img/more-info-button.png" width="130px">
+</a>

@@ -1,0 +1,23 @@
+    <div class="category-list-content">
+        <mvt:foreach iterator="product" array="category_listing:products">
+            <div>
+                <img class="category-content-single" src="&mvt:product:customfield_values:productimagecustomfields:main;" alt="&mvte:product:name;" >
+                <br>
+                <div class="product-title"><a data-mm-linktype="product-list-link" href="&mvte:product:link;">&mvt:product:name;</a></div>
+                <div class="product-price-title">Price: <span class="product-price">&mvt:product:formatted_base_price;</span> </div>
+                <div class="more-info-button"><img src="img/more-info-button.png" width="130px" ></div>
+            </div>
+        </mvt:foreach>
+    </div>
+
+<mvt:foreach iterator="product" array="category_listing:products">
+    <div class="category-list-content">
+        <div class="category-content-single">
+            <img class="related-prod-img" src="&mvt:product:customfield_values:productimagecustomfields:main;" alt="&mvte:product:name;">
+            <br>
+            <div class="product-title">&mvte:product:name;</div>
+            <div class="product-price-title">Price: <span class="product-price">&mvt:product:formatted_base_price;</span> </div>
+            <div class="more-info-button"><img src="img/more-info-button.png" width="130px" ></div>
+        </div>
+    </div>
+</mvt:foreach>

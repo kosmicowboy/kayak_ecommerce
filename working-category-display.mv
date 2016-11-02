@@ -24,16 +24,20 @@
                         <div class="col-md-12 category-content">                        
                         
                             <div class="row">
-                              <div class="col-sm-3">
-                              <mvt:item name="category_tree" />
+                              <div class="category-tree col-sm-3">
+                                <mvt:item name="category_tree" />
                               </div>
 
                                  <div class="col-sm-9 right-side-content">
-                                     <div class="cat-title">Home > Kayaks > Recreational Kayaks</div>
+                                     <div class="cat-title"> 
+                                          <div>
+                                            <a href="&mvt:breadcrumbs:homelink;"> Home </a> &gt; <a href="&mvte:breadcrumbs:links[1]:link;">&mvte:breadcrumbs:links[1]:name; </a> &gt; <a href="&mvte:breadcrumbs:links[2]:link;"> &mvt:breadcrumbs:links[2]:name;</a>
+                                          </div>
+                                     </div>
                                      <div class="banner-box"><img src="img/intro-banner.png"></div>
                                      <div class="flex title-bar-area">
-                                        <div class="category-title"> Recreational Kayaks </div>
-                                         <div class="pagination">
+                                        <div class="category-title"> &mvt:category:name; </div>
+                                            <div class="pagination">
                                              <ul class="pagination">
                                               <li><a href="#">1</a></li>
                                               <li><a href="#">2</a></li>
@@ -43,7 +47,7 @@
                                             </ul>
                                          </div>
                                      </div>
-                                    
+
                                     <div class="category-list-content">
                                         <mvt:item name="category_listing" />
                                     </div>

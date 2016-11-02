@@ -23,7 +23,26 @@ a {
 
 img {
 
-/*	background-color: #e9e9e9;*/
+}
+
+#site-container {
+    width: auto;
+}
+
+input[type="button"], input[type="submit"] {
+    background-color: #1fa1e7;
+    font-family: Arial;
+    font-size: 12px;
+    font-weight: bold;
+    line-height: 1;
+    color: #ffffff;
+    text-shadow: 0.5px 0.9px 0 rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+    border-color: #1fa1e7;
+}
+
+#content-container {
+    border-style: none;
 }
 
 .header {
@@ -58,7 +77,46 @@ img {
     display: flex;
     align-items: center;
     margin-bottom: -10px;
+    justify-content: space-between;
 }
+
+.items-in-cart {
+    font-size: 11px;
+    line-height: 1.8;
+    width: 217px;
+    height: 25px;
+    border-radius: 5px;
+    background-color: #74a2bc;
+    display: flex;
+    flex-basis: row;
+    justify-content: space-between;
+}
+
+.items-in-cart div:nth-child(1) {
+    color: white;
+    padding-left: 12%;
+    align-self: center;
+}
+
+.items-in-cart div:nth-child(2) {
+    width: 95px;
+    border-radius: 5px;
+    background-color: #ffffff;
+    font-family: Arial;
+    color: #ae0826;
+    margin: 2px;
+    align-self: center;
+}
+
+.search-bar {
+    width: 357px;
+    height: 25px;
+    border-radius: 5px;
+    background-color: #ffffff;
+    box-shadow: inset 2.5px 4.3px 5px 0 rgba(0, 0, 0, 0.05);
+    border: solid 1px #ffffff;
+}
+
 
 .logo-bar a {
    align-items: center;
@@ -67,6 +125,8 @@ img {
 .logo-bar a img {
     box-shadow: none;
 }
+
+
 
 .logo-bar:first-child {
     
@@ -84,6 +144,30 @@ img {
     display: flex;
     flex-direction: column;
     align-items: center;
+    margin: 0 10px 0 20px;
+}
+
+.category-tree {
+    background-color: #f2f2f2;
+    border-radius: 5px;
+    padding: 10px 0 10px 0;
+}
+
+.category-tree [class^=level-] {
+    text-align: left;
+    line-height: 36px;
+    border-bottom: 1px solid white;
+}
+
+.category-tree .level-1 {
+    color: #065683;
+    padding-left: 20px;
+}
+
+.category-tree .level-2 {
+    font-size: 12px;
+    color: #404040;
+    padding-left: 30px;
 }
 
 .SFNT .inner-wrapper {
